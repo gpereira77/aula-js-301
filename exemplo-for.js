@@ -13,4 +13,19 @@ for (/*inicialização condição e atualização*/ let i = 1; i <= 10; i++) {
     
 }
 
-// para uso de contador // ou while pequeno 
+// para uso de contador // ou while pequeno
+
+
+let lista = [gabriel, suzi, fernanda];
+
+for (item in lista){
+    console.log(lista[item]);
+}
+
+console.log ("...........");
+
+let lista = [gabriel, suzi, fernanda];
+
+for (item of lista){
+    console.log(item);
+}
